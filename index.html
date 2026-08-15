@@ -1,0 +1,294 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="description" content="Aurum is a modern fine-dining restaurant where seasonal ingredients, fire-led cooking and thoughtful hospitality meet.">
+  <meta name="theme-color" content="#0b0b09">
+  <meta name="color-scheme" content="dark">
+  <meta property="og:title" content="AURUM — Modern Dining">
+  <meta property="og:description" content="A table worth remembering.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="./assets/images/og-cover.svg">
+  <!--Favicon-->
+  <link rel="icon" href="./assets/images/favicon.svg" type="image/svg+xml">
+  <!--Google Fonts-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;1,400;1,500&display=swap" rel="stylesheet">
+  <!--Link to CSS file-->
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <title>AURUM — Modern Dining</title>
+</head>
+<body>
+  <!--Header-->
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="header" id="header">
+    <div class="container nav">
+      <a class="logo" href="#top" aria-label="Aurum home">
+        <span class="logo-a">A</span>
+        <span>AURUM</span>
+      </a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav" aria-label="Open menu">
+        <i></i>
+        <i></i>
+        <i></i>
+      </button>
+      <nav id="nav" class="nav-links" aria-label="Primary">
+        <a href="#story">Story</a>
+        <a href="#menu">Menu</a>
+        <a href="#experience">Experience</a>
+        <a href="#contact">Contact</a>
+        <button class="btn btn-sm js-book">Reserve</button>
+      </nav>
+    </div>
+  </header>
+  <!--Main-->
+  <main id="main">
+    <!--Hero-->
+    <section class="hero" id="top">
+      <div class="hero-bg"></div>
+      <div class="hero-shade"></div>
+      <div class="container hero-content">
+        <p class="kicker reveal">Fine dining · Since 1998</p>
+        <h1 class="reveal">A table worth<br>
+          <em>remembering.</em>
+        </h1>
+        <p class="hero-lead reveal">Seasonal ingredients, fire-led cooking and an intimate atmosphere crafted for extraordinary evenings.</p>
+        <div class="hero-actions reveal">
+          <a class="btn" href="#menu">Explore the menu</a>
+          <button class="btn btn-ghost" data-scroll="#story">Discover Aurum</button>
+        </div>
+        <div class="hero-meta reveal">
+          <span>Downtown District</span>
+          <b></b>
+          <span>Tue–Sun</span>
+          <b></b>
+          <span>18:00–23:30</span>
+        </div>
+      </div>
+      <a class="scroll-line" href="#story" aria-label="Scroll down"><span></span></a>
+    </section>
+    <!--Story-->
+    <section class="section" id="story">
+      <div class="container split">
+        <div class="copy reveal">
+          <p class="kicker">The Aurum philosophy</p>
+          <h2>Luxury is in the <em>details.</em></h2>
+          <p class="lead">We believe the finest dining experiences feel effortless. Our kitchen turns honest ingredients into expressive plates, while every detail of the room is designed to let the evening unfold naturally.</p>
+          <p>Our menu follows the seasons, our cooking follows the flame, and our hospitality follows one simple idea: make every guest feel genuinely expected.</p>
+          <a class="underlink" href="#experience">Meet the experience <span>↗</span></a>
+        </div>
+        <div class="visual reveal">
+          <div class="visual-main" role="img" aria-label="Aurum dining room"></div>
+          <div class="visual-small" role="img" aria-label="Chef preparing a dish"></div>
+          <div class="caption">
+            <strong>01</strong> An intimate room for remarkable evenings.
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Menu-->
+    <section class="section menu" id="menu">
+      <div class="container">
+        <div class="section-head reveal">
+          <div>
+            <p class="kicker">From our kitchen</p>
+            <h2>A menu in <em>motion.</em></h2>
+          </div>
+          <p>Our chefs work around the rhythm of the season. Discover a selection of signature dishes.</p>
+        </div>
+        <div class="filters" role="group" aria-label="Menu categories">
+          <button class="filter active" data-filter="all">All</button>
+          <button class="filter" data-filter="starters">Starters</button>
+          <button class="filter" data-filter="mains">Mains</button>
+          <button class="filter" data-filter="desserts">Desserts</button>
+        </div>
+        <div class="menu-grid">
+          <article class="dish reveal" data-category="starters">
+            <span>01</span>
+            <div>
+              <h3>Charred Octopus</h3>
+              <p>Smoked potato · saffron aioli · preserved lemon</p>
+            </div>
+            <strong>$19</strong>
+          </article>
+          <article class="dish reveal" data-category="starters">
+            <span>02</span>
+            <div>
+              <h3>Golden Beet</h3>
+              <p>Whipped goat cheese · pistachio · citrus oil</p>
+            </div>
+            <strong>$16</strong>
+          </article>
+          <article class="dish reveal" data-category="mains">
+            <span>03</span>
+            <div>
+              <h3>Ember-Seared Salmon</h3>
+              <p>Spring peas · beurre blanc · young herbs</p>
+            </div>
+            <strong>$34</strong>
+          </article>
+          <article class="dish reveal" data-category="mains">
+            <span>04</span>
+            <div>
+              <h3>Dry-Aged Striploin</h3>
+              <p>Black garlic · pommes anna · red wine jus</p>
+            </div>
+            <strong>$48</strong>
+          </article>
+          <article class="dish reveal" data-category="mains">
+            <span>05</span>
+            <div>
+              <h3>Wild Mushroom Risotto</h3>
+              <p>Porcini · aged parmesan · thyme · truffle</p>
+            </div>
+            <strong>$29</strong>
+          </article>
+          <article class="dish reveal" data-category="desserts">
+            <span>06</span>
+            <div>
+              <h3>Dark Chocolate Sphere</h3>
+              <p>72% cacao · salted caramel · cacao nib</p>
+            </div>
+            <strong>$14</strong>
+          </article>
+          <article class="dish reveal" data-category="desserts">
+            <span>07</span>
+            <div>
+              <h3>Vanilla Mille-Feuille</h3>
+              <p>Madagascar vanilla · pear · brown butter</p>
+            </div>
+            <strong>$13</strong>
+          </article>
+          <article class="dish reveal" data-category="desserts">
+            <span>08</span>
+            <div>
+              <h3>Seasonal Sorbet</h3>
+              <p>Chef's selection · fresh fruit · mint</p>
+            </div>
+            <strong>$10</strong>
+          </article>
+        </div>
+        <p class="menu-note">Menu changes regularly. Please share allergies or dietary requirements when booking.</p>
+      </div>
+    </section>
+    <!--Expirence-->
+    <section class="feature" id="experience">
+      <div class="feature-bg"></div>
+      <div class="feature-shade"></div>
+      <div class="container feature-content reveal">
+        <p class="kicker">The experience</p>
+        <h2>Come for dinner.<br><em>Stay for the story.</em></h2>
+        <p>Low light, open flame, thoughtful pours and a room that gives every conversation space to breathe.</p>
+        <button class="btn btn-light js-book">Make a reservation</button>
+      </div>
+    </section>
+    <!--Rewiews-->
+    <section class="section reviews">
+      <div class="container"><p class="kicker">Guest notes</p>
+        <div class="quotes">
+          <figure class="reveal">
+            <blockquote>“Every course felt intentional. Beautiful food, impeccable service and an atmosphere that made the whole evening feel special.”</blockquote>
+            <figcaption>— Amelia R.</figcaption>
+          </figure>
+        <figure class="reveal">
+          <blockquote>“Aurum has that rare balance of sophistication and warmth. We came for dinner and immediately started planning our next visit.”</blockquote>
+          <figcaption>— Daniel M.</figcaption>
+        </figure>
+      </div>
+      </div>
+    </section>
+    <!--Contact-->
+    <section class="section contact" id="contact">
+      <div class="container contact-grid">
+        <div>
+          <p class="kicker">Find us</p>
+          <h2>Your evening<br>starts <em>here.</em></h2>
+        </div>
+        <div class="details">
+          <p><small>Address</small>18 Meridian Avenue, Downtown</p>
+          <p><small>Phone</small>+1 (555) 018-9821</p>
+          <p><small>Email</small>hello@aurum.example</p>
+          <p><small>Hours</small>Tue–Sun · 18:00–23:30</p>
+          <button class="underlink js-book">Reserve your table <span>↗</span></button>
+        </div>
+      </div>
+    </section>
+  </main>
+  <!--Footer-->
+  <footer>
+    <div class="container footer">
+      <div>
+        <span class="logo-text">AURUM</span>
+        <p>Modern dining, thoughtfully made.</p>
+      </div>
+      <div class="footer-links">
+        <a href="#story">Story</a>
+        <a href="#menu">Menu</a>
+        <a href="#experience">Experience</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <p>© <span id="year"></span> Aurum Restaurant</p>
+    </div>
+  </footer>
+  <!--Modal-->
+  <div class="modal" id="booking" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="booking-title">
+    <div class="modal-bg" data-close></div>
+    <div class="modal-card">
+      <button class="close" type="button" aria-label="Close" data-close>×</button>
+      <p class="kicker">Aurum reservations</p>
+      <h2 id="booking-title">Reserve your <em>table.</em></h2>
+      <form id="booking-form" novalidate>
+        <div class="form-grid">
+          <label>Full name
+            <input name="name" autocomplete="name" required>
+          </label>
+          <label>Email
+            <input name="email" type="email" autocomplete="email" required>
+          </label>
+          <label>Date
+            <input name="date" type="date" required>
+          </label>
+          <label>Time
+            <select name="time" required>
+              <option value="">Select</option>
+              <option>18:00</option>
+              <option>18:30</option>
+              <option>19:00</option>
+              <option>19:30</option>
+              <option>20:00</option>
+              <option>20:30</option>
+              <option>21:00</option>
+              <option>21:30</option>
+              <option>22:00</option>
+            </select>
+          </label>
+          <label>Guests
+            <select name="guests" required>
+              <option value="2">2 guests</option>
+              <option value="3">3 guests</option>
+              <option value="4">4 guests</option>
+              <option value="5">5 guests</option>
+              <option value="6">6 guests</option>
+              <option value="7">7 guests</option>
+              <option value="8">8 guests</option>
+            </select>
+          </label>
+          <label>Phone
+            <input name="phone" type="tel" autocomplete="tel">
+          </label>
+        </div>
+        <label>Special request
+          <textarea name="message" rows="3" maxlength="500" placeholder="Birthday, anniversary, dietary notes..."></textarea>
+        </label>
+        <button class="btn form-btn" type="submit">Request reservation</button>
+        <p id="form-status" class="status" role="status" aria-live="polite"></p>
+      </form>
+    </div>
+  </div>
+
+  <!--Link to JS file-->
+  <script src="./assets/js/main.js" defer></script>
+</body>
+</html>

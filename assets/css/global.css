@@ -1,0 +1,48 @@
+/*Variables*/
+:root {
+    --bg: #090908;
+    --surface: #11110f;
+    --surface2: #161613;
+    --text: #f4f0e7;
+    --muted: #9f9a91;
+    --gold: #c7a76a;
+    --gold2: #e7cc91;
+    --line: rgba(231, 204, 145, .19);
+    --serif: "Playfair Display", Georgia, serif;
+    --sans: "DM Sans", system-ui, sans-serif;
+    --container: min(1180px, calc(100% - 40px));
+}
+
+/*Global Style*/
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: var(--sans);
+    line-height: 1.65;
+}
+
+body.lock {
+    overflow: hidden;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+button, input, select, textarea {
+    font: inherit;
+}
+
+button {
+    cursor: pointer;
+}

@@ -16,8 +16,8 @@ The website is designed to work across different screen sizes and device types, 
 
 ## 3. Live Demo
 
-[Live Demo](https://your-username.github.io/aurum-restaurant/)
+[Live Demo](https://art4578.github.io/Aurum__Restaurant)
 
 ## 4. GitHub
 
-[GitHub](https://github.com/your-username/aurum-restaurant)
+[GitHub](https://github.com/ART4578/Aurum__Restaurant)
